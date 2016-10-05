@@ -3,6 +3,7 @@ nav {
   position: fixed;
   top: 20px;
   left: 20px;
+<<<<<<< HEAD
   box-sizing: border-box;
   width: 300px;
   opacity: .1;
@@ -19,12 +20,31 @@ nav > ul {
 }
 
 nav li {
+=======
+  background: green;
+  width: 300px;
+  box-sizing: border-box;
+  opacity: .1;
+  transition: all .3s ease-out;
+}
+
+nav:hover{
+  opacity: 1;
+}
+
+nav > ul > li:hover:{
+  color: rgba(0,0,0,1);
+}
+
+nav li{
+>>>>>>> origin/almosk
   margin: 12px 0;
   font-size: 14px;
   line-height: 15px;
   color: rgba(0,0,0,.8);
 }
 
+<<<<<<< HEAD
 nav > li > li:hover {
   color: rgba(0,0,0,1);
 }
@@ -35,13 +55,33 @@ nav > ul > li:first-child{
 }
 
 nav > ul > li > ul {
+=======
+nav > ul >li:first-child {
+  font-weight: bold;
+}
+
+nav > ul > li > ul{
+>>>>>>> origin/almosk
   padding-left: 10px;
 }
 
 nav > ul > li > ul li {
+<<<<<<< HEAD
   color: rgba(0,0,0,.4)
 }
 
 nav > ul > li > ul li:hover {
   color: rgba(0,0,0,.6)
+=======
+  color: rgba(0, 0, 0, .4);
+}
+
+nav > ul > li > ul li:hover {
+  color: rgba(0, 0, 0, .6);
+}
+
+nav>ul{
+  padding: 13px 30px 15px;
+  position: absolute;
+>>>>>>> origin/almosk
 }
