@@ -2,6 +2,12 @@ article a {
   text-decoration: underline;
 }
 
+article>*:not(section){
+  width: 728px;
+  margin: 0 auto;
+
+}
+
 
 article h1,
 article h2,
